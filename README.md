@@ -27,7 +27,8 @@ The primary contribution of the TinyStories paper is demonstrating that even sma
 - The trained models replicate the losses reported in the paper. For instance, the final loss for a model with 512 hidden size and 8 layers is around 1.2, matching the reported loss for a model of the same size in the paper.
 - The training process is stable, and the loss decreases as expected.
 
-<img width="1426" alt="training_loss_tinystories" src="https://github.com/eduardoslonski/tinystories_training_private/assets/121900778/51b7f079-ba4a-470b-b836-683cb28effa4">
+<img width="1426" alt="training_loss_tinystories" src="https://github.com/eduardoslonski/TinyStoriesReproduction/assets/121900778/88c785a2-97ae-4e62-b316-dbac198d67a9">
+
 
 - Models demonstrate no further performance improvement beyond 80M parameters on the TinyStories dataset, highlighting the simplicity and limitations of the data.
 - The generation capabilities also mirror those described in the paper and are equally impressive. For example, this completion from an 8M model for the prompt:
