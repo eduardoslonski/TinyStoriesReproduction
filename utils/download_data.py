@@ -37,7 +37,7 @@ def download_data(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="arguments")
-    parser.add_argument('--bucket', type=str, default='edus-redpajama', help="bucket name")
+    parser.add_argument('--bucket', type=str, help="bucket name")
     parser.add_argument('--object', type=str, default='train.bin', help="object name")
     parser.add_argument('--file_path', type=str, help="local file path to save")
     args = parser.parse_args()
